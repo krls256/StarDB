@@ -1,0 +1,25 @@
+.random-planet {
+  width: 100%;
+  border-radius: 10px;
+  background-color: #303030;
+  padding: 20px;
+  display: flex;
+  align-items: flex-start;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  &__img {
+    width: 170px;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+  &__header {
+    font-size: 35px;
+
+  }
+  &__info {
+    li {
+      padding: 10px;
+    }
+
+  }
+}
